@@ -1,0 +1,14 @@
+document.title="manoj";
+console.log(document.title);
+console.log(document.all);
+console.log(document.links);
+console.log(document.domain);
+console.log(document.URL);
+console.log(document.head);
+console.log(document.body);
+console.log(document.forms);
+let header = document.getElementById('main-header');
+header.style.borderBottom="solid 2px black";
+let additem = document.querySelector('.title');
+additem.style.color = "green";
+additem.style.fontWeight = "bold";
